@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-10-14T09:00:54.232Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" version="22.0.4" etag="dnvw62HHngzKuUjF7XKg" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-14T12:27:08.487Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="pBT5djRuRUIgUOhaXmbj" version="22.0.4" type="github">
   <diagram name="페이지-1" id="4LEsFiyD8C9OZHHL8klG">
-    <mxGraphModel>
+    <mxGraphModel dx="1386" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Bo4ScuYig3zIXwwWlQiN-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bo4ScuYig3zIXwwWlQiN-4" target="Bo4ScuYig3zIXwwWlQiN-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bo4ScuYig3zIXwwWlQiN-4" value="Data Vendar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="225" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bo4ScuYig3zIXwwWlQiN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bo4ScuYig3zIXwwWlQiN-5" target="Bo4ScuYig3zIXwwWlQiN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bo4ScuYig3zIXwwWlQiN-5" value="Portfolio Class" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="220" width="171" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Bo4ScuYig3zIXwwWlQiN-6" value="Asset Class" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Bo4ScuYig3zIXwwWlQiN-5">
+          <mxGeometry y="30" width="171" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bo4ScuYig3zIXwwWlQiN-7" value="Equity/Bond Class" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Bo4ScuYig3zIXwwWlQiN-5">
+          <mxGeometry y="60" width="171" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bo4ScuYig3zIXwwWlQiN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bo4ScuYig3zIXwwWlQiN-12" target="Bo4ScuYig3zIXwwWlQiN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bo4ScuYig3zIXwwWlQiN-12" value="증권사 API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="90" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bo4ScuYig3zIXwwWlQiN-16" value="Analytics Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="360" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bo4ScuYig3zIXwwWlQiN-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bo4ScuYig3zIXwwWlQiN-18" target="Bo4ScuYig3zIXwwWlQiN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bo4ScuYig3zIXwwWlQiN-18" value="Management Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="225" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bo4ScuYig3zIXwwWlQiN-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bo4ScuYig3zIXwwWlQiN-22" target="Bo4ScuYig3zIXwwWlQiN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bo4ScuYig3zIXwwWlQiN-22" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="580" y="360" width="170" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
